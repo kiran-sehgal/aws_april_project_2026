@@ -20,24 +20,21 @@
   </build>
 
   <dependencies>
+    <!-- JUnit for Testing -->
     <dependency>
       <groupId>junit</groupId>
-      <artifactId>junit-dep</artifactId>
+      <artifactId>junit</artifactId>
       <scope>test</scope>
     </dependency>
 
+    <!-- Hamcrest for Matchers -->
     <dependency>
       <groupId>org.hamcrest</groupId>
-      <artifactId>hamcrest-core</artifactId>
+      <artifactId>hamcrest</artifactId>
       <scope>test</scope>
     </dependency>
 
-    <dependency> 
-      <groupId>org.hamcrest</groupId>
-      <artifactId>hamcrest-library</artifactId>
-      <scope>test</scope>
-    </dependency>
-
+    <!-- Mockito for Mocking -->
     <dependency>
       <groupId>org.mockito</groupId>
       <artifactId>mockito-core</artifactId>
